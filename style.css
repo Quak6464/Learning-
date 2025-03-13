@@ -2,6 +2,8 @@ h {
 color: blue;
 font-weight: bold;
 }
+
 body {
-  background-image: url("fbf39fb8f60cd4ad91230ef17da336d7.jpg");
+ background-image: url("fbf39fb8f60cd4ad91230ef17da336d7.jpg");
+ background-color: #cccccc;
 }
