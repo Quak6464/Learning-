@@ -1,3 +1,7 @@
 h {
-color: blue 
+color: blue;
+weight: bold;
+}
+body {
+  background-image: background.png;
 }
