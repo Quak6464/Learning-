@@ -24,8 +24,10 @@ body, html {
     font-size: 24px;
     cursor: pointer;
     transition: opacity 1s ease-in-out;
+    z-index: 10;
 }
 
+/* Initially hide the main content */
 #main-content {
     display: none;
     opacity: 0;
@@ -37,7 +39,7 @@ body, html {
     position: fixed;
     width: 100%;
     height: 100%;
-    background: url('stars.gif') repeat;
+    background: url('banner.png') repeat;
 }
 
 /* Banner */
