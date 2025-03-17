@@ -1,15 +1,89 @@
-h {
-  color: blue;
-  font-weight: bold;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    text-align: center;
 }
 
-body {
-  background-image: url("fbf39fb8f60cd4ad91230ef17da336d7.jpg");
-  background-color: #cccccc;
+/* Intro Screen */
+#intro-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: opacity 1s ease-in-out;
 }
 
-.pfp {
-  border-radius: 30px;
-  margin-left: auto;
-  margin-right: auto;
+#main-content {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+/* Background Stars */
+.stars {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url('stars.gif') repeat;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Logo */
+.logo {
+    margin-top: 20px;
+    width: 200px;
+}
+
+/* Welcome Text */
+.welcome-text {
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Join Now Button */
+.join-btn {
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/* Music Player */
+.music-player {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+#toggle-music {
+    background: black;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
 }
