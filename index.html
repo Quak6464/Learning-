@@ -1,21 +1,45 @@
-<!-- this is my first web -->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>portfolio | bilota.x</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  
-  <!-- main stuff -->
-  
-  <body>
-    <img src="5b4bbb418353b2c0411e5367491b96be.jpg" class="pfp" width="160">
-    <h>bilota.x<h/>
-    <p>helli</p>
-    
-  </body>
+    <title>Your Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Intro Screen -->
+    <div id="intro-screen">
+        <p id="click-text">Click here...</p>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content">
+        <div class="stars"></div>
+
+        <!-- Banner -->
+        <img src="banner.png" alt="Banner" class="banner">
+
+        <!-- Logo -->
+        <img src="logo.png" alt="Logo" class="logo">
+
+        <!-- Music Player -->
+        <div class="music-player">
+            <audio id="bg-music" autoplay loop>
+                <source src="song.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <button id="toggle-music">♫</button>
+        </div>
+
+        <!-- Welcome Text -->
+        <div class="welcome-text">
+            <p>Welcome to my little corner of the world, where every moment feels like a warm hug. Stay, vibe, and let the good energy flow.</p>
+        </div>
+
+        <!-- Join Now Button -->
+        <a href="#" class="join-btn">JOIN NOW</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
